@@ -70,13 +70,13 @@ stack_git_private_key: ((git.ssh_key))
 #+ Branch to use on the stack Git repository.
 stack_git_branch: master
 
-#. stack_terraform_path (required): stack-asmodee-mssql/terraform
+#. stack_terraform_path (required): terraform
 #+ Path of Terraform files in the stack git repository
-stack_terraform_path: stack-asmodee-mssql/terraform
+stack_terraform_path: terraform
 
-#. stack_ansible_path (required): stack-asmodee-mssql/ansible
+#. stack_ansible_path (required): ansible
 #+ Path of Ansible files in the stack git repository
-# stack_ansible_path: stack-asmodee-mssql/ansible
+# stack_ansible_path: ansible
 
 #
 # Default Config Repository
