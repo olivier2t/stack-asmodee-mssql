@@ -3,5 +3,5 @@
 #
 output "rg_name" {
   description = "The name for the resource group"
-  value       = data.azurerm_resource_group.nexus.name
+  value       = data.azurerm_resource_group.asmodee.name
 }
